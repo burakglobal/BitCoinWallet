@@ -306,7 +306,7 @@
                                 </variation>
                             </view>
                             <tabBar contentMode="scaleToFill" translucent="NO" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="PhA-zc-Um6">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <rect key="frame" x="-14" y="618" width="403" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Send" image="upload.png" id="4mb-2o-3A1"/>
@@ -328,9 +328,9 @@
                             <constraint firstItem="z1R-zT-Rrk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CKY-UR-VWw"/>
                             <constraint firstItem="eHT-LR-cZK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Mez-Vu-Iik"/>
                             <constraint firstItem="z1R-zT-Rrk" firstAttribute="bottom" secondItem="eHT-LR-cZK" secondAttribute="bottom" constant="-43" id="SFT-xv-Rfe"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PhA-zc-Um6" secondAttribute="trailing" constant="-16" id="dR6-lF-Vtb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PhA-zc-Um6" secondAttribute="trailing" constant="-30" id="dR6-lF-Vtb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eHT-LR-cZK" secondAttribute="trailing" constant="-16" id="l63-DN-8Kh"/>
-                            <constraint firstItem="PhA-zc-Um6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="onN-ow-2cz"/>
+                            <constraint firstItem="PhA-zc-Um6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-30" id="onN-ow-2cz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z1R-zT-Rrk" secondAttribute="trailing" constant="-16" id="yka-sw-axN"/>
                         </constraints>
                     </view>
@@ -1725,7 +1725,7 @@
                                 </constraints>
                             </view>
                             <tabBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD9-CA-2hf">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <rect key="frame" x="-14" y="618" width="403" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Send" image="upload.png" id="KIz-U8-UaX"/>
@@ -1858,8 +1858,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="88g-Hh-q2e" secondAttribute="trailing" constant="-8" id="Pwf-NR-tib"/>
                             <constraint firstItem="88g-Hh-q2e" firstAttribute="leading" secondItem="s0k-Wg-a4k" secondAttribute="leadingMargin" constant="-8" id="TFX-QM-U0b"/>
                             <constraint firstItem="OX8-v3-aou" firstAttribute="leading" secondItem="s0k-Wg-a4k" secondAttribute="leadingMargin" constant="-8" id="l0z-dQ-EKI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GD9-CA-2hf" secondAttribute="trailing" constant="-16" id="qnh-NA-nUg"/>
-                            <constraint firstItem="GD9-CA-2hf" firstAttribute="leading" secondItem="s0k-Wg-a4k" secondAttribute="leadingMargin" constant="-16" id="zeJ-Xu-fDB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GD9-CA-2hf" secondAttribute="trailing" constant="-30" id="qnh-NA-nUg"/>
+                            <constraint firstItem="GD9-CA-2hf" firstAttribute="leading" secondItem="s0k-Wg-a4k" secondAttribute="leadingMargin" constant="-30" id="zeJ-Xu-fDB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Receive" id="wZG-Zf-k4F">
@@ -4085,6 +4085,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="s7I-Xo-HUH"/>
-        <segue reference="ywA-pj-yl1"/>
+        <segue reference="jbc-qB-Ba2"/>
     </inferredMetricsTieBreakers>
 </document>

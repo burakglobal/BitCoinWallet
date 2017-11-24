@@ -54,9 +54,9 @@ import UIKit
     override func viewWillAppear(_ animated:Bool) {
         super.viewWillAppear(animated)
         if TLPreferences.enabledColdWallet() {
-            menuItems = [TLDisplayStrings.SEND_STRING(), TLDisplayStrings.RECEIVE_STRING(), TLDisplayStrings.HISTORY_STRING(), TLDisplayStrings.ACCOUNTS_STRING(), TLDisplayStrings.COLD_WALLET_STRING(), TLDisplayStrings.HELP_STRING(), TLDisplayStrings.MORE_STRING(), TLDisplayStrings.SETTINGS_STRING()]
+            menuItems = [TLDisplayStrings.SEND_STRING(), TLDisplayStrings.RECEIVE_STRING(), TLDisplayStrings.HISTORY_STRING(), TLDisplayStrings.ACCOUNTS_STRING(), TLDisplayStrings.COLD_WALLET_STRING(), TLDisplayStrings.HELP_STRING(), TLDisplayStrings.SETTINGS_STRING()]
         } else {
-            menuItems = [TLDisplayStrings.SEND_STRING(), TLDisplayStrings.RECEIVE_STRING(), TLDisplayStrings.HISTORY_STRING(), TLDisplayStrings.ACCOUNTS_STRING(), TLDisplayStrings.HELP_STRING(), TLDisplayStrings.MORE_STRING(), TLDisplayStrings.SETTINGS_STRING()]
+            menuItems = [TLDisplayStrings.SEND_STRING(), TLDisplayStrings.RECEIVE_STRING(), TLDisplayStrings.HISTORY_STRING(), TLDisplayStrings.ACCOUNTS_STRING(), TLDisplayStrings.HELP_STRING(), TLDisplayStrings.SETTINGS_STRING()]
         }
         self.tableView!.reloadData()
     }
@@ -117,10 +117,6 @@ import UIKit
                 imageName = TLWalletUtils.HELP_ICON_IMAGE_NAME()
                 name = TLDisplayStrings.HELP_STRING()
                 break
-            case 6:
-                imageName = TLWalletUtils.LINK_ICON_IMAGE_NAME()
-                name = TLDisplayStrings.MORE_STRING()
-                break
             default:
                 imageName = TLWalletUtils.SETTINGS_ICON_IMAGE_NAME()
                 name = TLDisplayStrings.SETTINGS_STRING()
@@ -147,10 +143,6 @@ import UIKit
             case 4:
                 imageName = TLWalletUtils.HELP_ICON_IMAGE_NAME()
                 name = TLDisplayStrings.HELP_STRING()
-                break
-            case 5:
-                imageName = TLWalletUtils.LINK_ICON_IMAGE_NAME()
-                name = TLDisplayStrings.MORE_STRING()
                 break
             default:
                 imageName = TLWalletUtils.SETTINGS_ICON_IMAGE_NAME()
@@ -184,9 +176,7 @@ import UIKit
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "ManageAccountNav")
             } else if ((indexPath as NSIndexPath).row == 4) {
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "ColdWalletNav")
-            } else if ((indexPath as NSIndexPath).row == 5) {
-                self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "HelpNav")
-            } else if ((indexPath as NSIndexPath).row == 6) {
+             } else if ((indexPath as NSIndexPath).row == 5) {
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "LinksNav")
             } else {
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "SettingsNav")
@@ -202,9 +192,7 @@ import UIKit
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "ManageAccountNav")
             } else if ((indexPath as NSIndexPath).row == 4) {
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "HelpNav")
-            } else if ((indexPath as NSIndexPath).row == 5) {
-                self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "LinksNav")
-            } else {
+           } else {
                 self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "SettingsNav")
             }
         }
