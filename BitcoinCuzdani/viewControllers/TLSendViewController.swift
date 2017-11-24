@@ -590,8 +590,8 @@ import StoreKit
                 TLSendFormData.instance().feeAmount = fee
             }
             
-             TLSendFormData.instance().feeAmount =  TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006))
-            fee =  (TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006)))!
+//             TLSendFormData.instance().feeAmount =  TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006))
+//            fee =  (TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006)))!
 
             let amountNeeded = inputtedAmount.add(fee)
             let accountBalance = AppDelegate.instance().godSend!.getCurrentFromBalance()

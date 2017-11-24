@@ -172,6 +172,15 @@ import UIKit
         TLStealthWebSocket.instance().reconnect()
 
         if self.slidingViewController() != nil {
+            UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: { () -> Void in
+                self.view.frame = CGRect(x: 0, y: -1000, width: self.view.frame.width, height: self.view.frame.height)
+                
+            })
+            
+            
+            
+            
+            
             self.slidingViewController().topViewController = self.storyboard!.instantiateViewController(withIdentifier: "SendNav") 
         } else {
             //is running unit test
@@ -179,6 +188,8 @@ import UIKit
     }
     
     override func viewWillDisappear(_ animated: Bool) -> () {
-        UIApplication.shared.setStatusBarHidden(false, with: UIStatusBarAnimation.none)
+
+    
+    UIApplication.shared.setStatusBarHidden(false, with: UIStatusBarAnimation.none)
     }
 }

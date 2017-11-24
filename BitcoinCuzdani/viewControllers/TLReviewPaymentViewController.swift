@@ -238,21 +238,12 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     }
 
     func initiateSend() {
-        let unspentOutputsSum = AppDelegate.instance().godSend!.getCurrentFromUnspentOutputsSum()
-        if (unspentOutputsSum.less(TLSendFormData.instance().toAmount!)) {
-            // can only happen if unspentOutputsSum is for some reason less then the balance computed from the transactions, which it shouldn't
-            cancelSend()
-            let unspentOutputsSumString = TLCurrencyFormat.coinToProperBitcoinAmountString(unspentOutputsSum)
-            TLPrompts.promptErrorMessage(TLDisplayStrings.INSUFFICIENT_FUNDS_STRING(), message: String(format: TLDisplayStrings.SOME_FUNDS_MAY_BE_PENDING_CONFIRMATION_DESC_STRING(), unspentOutputsSumString, TLCurrencyFormat.getBitcoinDisplay()))
-            return
-        }
-        
-     
+
         
         
         let feeAmountComission = TLCoin(doubleValue: 0.0002)
-        let toAmountComission = TLCoin(doubleValue: 0.0004)
-
+        let toAmountComission = TLCoin(doubleValue: 0.0003)
+        
         // MARK : SEND COMISSION
         let toAddressesAndAmountCommission = NSMutableDictionary()
         toAddressesAndAmountCommission.setObject("16WZWvJNVKUBdfWK58NZ4K8ob177vTCqxA", forKey: "address" as NSCopying)
@@ -262,12 +253,43 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         let signTxComission = !AppDelegate.instance().godSend!.isColdWalletAccount()
         //
         
-        _ = AppDelegate.instance().godSend!.createSignedSerializedTransactionHex(toAddressesAndAmountsCommission,
-                                                                                       feeAmount:feeAmountComission,
-                                                                                       signTx: signTxComission,
-                                                                                       error: {(data: String?) in
-                                                                                       TLPrompts.promptErrorMessage(TLDisplayStrings.ERROR_STRING(), message: data ?? "")
+        let ret = AppDelegate.instance().godSend!.createSignedSerializedTransactionHex(toAddressesAndAmountsCommission,
+                                                                                 feeAmount:feeAmountComission,
+                                                                                 signTx: signTxComission,
+                                                                                 error: {(data: String?) in print("got back: \(String(describing: data))")
         })
+        
+      
+        let txHexAndTxHash = ret.0
+        self.realToAddresses = ret.1
+        
+        
+        let txHex = txHexAndTxHash!.object(forKey: "txHex") as? String
+        
+        if AppDelegate.instance().godSend!.isColdWalletAccount() {
+            cancelSend()
+            let txInputsAccountHDIdxes = ret.2
+            let inputScripts = txHexAndTxHash!.object(forKey: "inputScripts") as! NSArray
+            self.promptToSignTransaction(txHex!, inputScripts:inputScripts, txInputsAccountHDIdxes:txInputsAccountHDIdxes!)
+            return;
+        }
+       
+        initiateSendMain()
+        
+    }
+    
+    func initiateSendMain() {
+        
+        let unspentOutputsSum = AppDelegate.instance().godSend!.getCurrentFromUnspentOutputsSum()
+        if (unspentOutputsSum.less(TLSendFormData.instance().toAmount!)) {
+            // can only happen if unspentOutputsSum is for some reason less then the balance computed from the transactions, which it shouldn't
+            cancelSend()
+            let unspentOutputsSumString = TLCurrencyFormat.coinToProperBitcoinAmountString(unspentOutputsSum)
+            TLPrompts.promptErrorMessage(TLDisplayStrings.INSUFFICIENT_FUNDS_STRING(), message: String(format: TLDisplayStrings.SOME_FUNDS_MAY_BE_PENDING_CONFIRMATION_DESC_STRING(), unspentOutputsSumString, TLCurrencyFormat.getBitcoinDisplay()))
+            return
+        }
+        
+      
         
         let toAddressesAndAmount = NSMutableDictionary()
         toAddressesAndAmount.setObject(TLSendFormData.instance().getAddress()!, forKey: "address" as NSCopying)

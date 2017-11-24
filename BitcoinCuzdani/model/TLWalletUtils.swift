@@ -136,12 +136,12 @@ class TLWalletUtils {
         static let BITCOIN_ISO_CODE = "BTC"
         static let BITCOIN_SYMBOL = "B"
         
-        static let DEFAULT_FEE_AMOUNT = "0.0001"
+        static let DEFAULT_FEE_AMOUNT = "0.0010"
         
         //use to prevent user input error of too high a fee
         static let MAX_FEE_AMOUNT = "0.01"
         //use to prevent user input error of too low a fee
-        static let MIN_FEE_AMOUNT = "0.0001"
+        static let MIN_FEE_AMOUNT = "0.0010"
     }
     
     class func ENABLE_STEALTH_ADDRESS() -> (Bool) {
