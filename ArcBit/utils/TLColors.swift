@@ -35,7 +35,7 @@ class TLColors {
             let g = 171/255.0
             let b = 220/255.0
             
-            Static.color = UIColor(red: CGFloat(r), green:CGFloat(g), blue:CGFloat(b), alpha:1)
+            Static.color = UIColor.red //UIColor(red: CGFloat(r), green:CGFloat(g), blue:CGFloat(b), alpha:1)
         }
         return Static.color!
     }

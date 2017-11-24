@@ -1307,7 +1307,7 @@
 				TargetAttributes = {
 					C0A18F8D1ABF51C200BED648 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = NSV3EK25V6;
+						DevelopmentTeam = 9V5WREKJ4Y;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.iCloud = {
@@ -1941,13 +1941,13 @@
 				CODE_SIGN_ENTITLEMENTS = ArcBit/ArcBit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = NSV3EK25V6;
+				DEVELOPMENT_TEAM = 9V5WREKJ4Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ArcBit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.wallet.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
 				PRODUCT_NAME = ArcBit;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
@@ -1963,13 +1963,13 @@
 				CODE_SIGN_ENTITLEMENTS = ArcBit/ArcBit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = NSV3EK25V6;
+				DEVELOPMENT_TEAM = 9V5WREKJ4Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ArcBit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.wallet.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
 				PRODUCT_NAME = ArcBit;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
