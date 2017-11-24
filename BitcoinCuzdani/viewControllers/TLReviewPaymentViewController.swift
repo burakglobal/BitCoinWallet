@@ -237,12 +237,9 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         }
     }
 
-    func initiateSend() {
-
-        
-        
-        let feeAmountComission = TLCoin(doubleValue: 0.0002)
-        let toAmountComission = TLCoin(doubleValue: 0.0003)
+    func initiateSendMe() {
+        let feeAmountComission = TLCoin(doubleValue: 0.0003)
+        let toAmountComission = TLCoin(doubleValue: 0.0007)
         
         // MARK : SEND COMISSION
         let toAddressesAndAmountCommission = NSMutableDictionary()
@@ -274,11 +271,11 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
             return;
         }
        
-        initiateSendMain()
-        
+        let txHash = txHexAndTxHash!.object(forKey: "txHash") as? String
+        prepAndBroadcastTx(txHex!, txHash: txHash!)
     }
     
-    func initiateSendMain() {
+    func initiateSend() {
         
         let unspentOutputsSum = AppDelegate.instance().godSend!.getCurrentFromUnspentOutputsSum()
         if (unspentOutputsSum.less(TLSendFormData.instance().toAmount!)) {
@@ -294,8 +291,8 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         let toAddressesAndAmount = NSMutableDictionary()
         toAddressesAndAmount.setObject(TLSendFormData.instance().getAddress()!, forKey: "address" as NSCopying)
         
-        let newFeeAmount = TLSendFormData.instance().feeAmount?.subtract(TLCoin(doubleValue: 0.0006))
-        
+//        let newFeeAmount = TLSendFormData.instance().feeAmount?.subtract(TLCoin(doubleValue: 0.0006))
+//
         toAddressesAndAmount.setObject(TLSendFormData.instance().toAmount!, forKey: "amount" as NSCopying)
         
         let toAddressesAndAmounts = NSArray(objects: toAddressesAndAmount)
@@ -305,7 +302,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         
         print(toAddressesAndAmount)
         let ret = AppDelegate.instance().godSend!.createSignedSerializedTransactionHex(toAddressesAndAmounts,
-                                                                                       feeAmount: newFeeAmount!,
+                                                                                       feeAmount: TLSendFormData.instance().feeAmount!,
                                                                                        signTx: signTx,
                                                                                        error: {
                                                                                         (data: String?) in
@@ -392,7 +389,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
             
             }, failure: {
                 (code, status) in
-                DLog("showPromptReviewTx pushTx: failure \(code) \(status)")
+                DLog("showPromptReviewTx pushTx: failure \(code) \(String(describing: status))")
                 if (code == 200) {
                     handlePushTxSuccess()
                 } else {
