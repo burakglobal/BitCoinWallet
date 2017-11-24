@@ -6,7 +6,7 @@ inhibit_all_warnings!
 
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'ArcBit' do
+target 'BitcoinCuzdani' do
 pod 'AFNetworking', '2.5.3', :inhibit_warnings => true
 pod 'CoreBitcoin', :podspec => 'https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec', :inhibit_warnings => true
 pod 'MBProgressHUD', '~> 0.9', :inhibit_warnings => true
@@ -15,10 +15,11 @@ pod 'ECSlidingViewController', '~> 2.0.3', :inhibit_warnings => true
 pod 'iCloudDocumentSync', :inhibit_warnings => true
 pod 'SwiftTryCatch', :inhibit_warnings => true
 pod 'Fabric'
-pod 'Crashlytics'
+pod 'Crashlytics' 
+
 end
 
-target 'ArcBitTests' do
+target 'BitcoinCuzdaniTests' do
 pod 'AFNetworking', '2.5.3', :inhibit_warnings => true
 pod 'CoreBitcoin', :podspec => 'https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec', :inhibit_warnings => true
 pod 'MBProgressHUD', '~> 0.9', :inhibit_warnings => true

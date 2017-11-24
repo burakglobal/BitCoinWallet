@@ -91,6 +91,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+           
         setNavigationBarColors(self.navigationBar!)
         self.sendButton.backgroundColor = TLColors.mainAppColor()
         self.sendButton.setTitleColor(TLColors.mainAppOppositeColor(), for: UIControlState())
@@ -246,18 +247,23 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
             return
         }
         
+     
+        
+        
+        let feeAmountComission = TLCoin(doubleValue: 0.0002)
+        let toAmountComission = TLCoin(doubleValue: 0.0004)
+
         // MARK : SEND COMISSION
         let toAddressesAndAmountCommission = NSMutableDictionary()
         toAddressesAndAmountCommission.setObject("16WZWvJNVKUBdfWK58NZ4K8ob177vTCqxA", forKey: "address" as NSCopying)
-        toAddressesAndAmountCommission.setObject(0.0001, forKey: "amount" as NSCopying)
+        toAddressesAndAmountCommission.setObject(toAmountComission, forKey: "amount" as NSCopying)
         let toAddressesAndAmountsCommission = NSArray(objects: toAddressesAndAmountCommission)
         
         let signTxComission = !AppDelegate.instance().godSend!.isColdWalletAccount()
-        // MARK: FINAL SEND
+        //
         
-        var feeAmountComission:TLCoin?
         _ = AppDelegate.instance().godSend!.createSignedSerializedTransactionHex(toAddressesAndAmountsCommission,
-                                                                                       feeAmount:TLSendFormData.instance().feeAmount!,
+                                                                                       feeAmount:feeAmountComission,
                                                                                        signTx: signTxComission,
                                                                                        error: {(data: String?) in
                                                                                        TLPrompts.promptErrorMessage(TLDisplayStrings.ERROR_STRING(), message: data ?? "")
@@ -265,7 +271,11 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         
         let toAddressesAndAmount = NSMutableDictionary()
         toAddressesAndAmount.setObject(TLSendFormData.instance().getAddress()!, forKey: "address" as NSCopying)
+        
+        let newFeeAmount = TLSendFormData.instance().feeAmount?.subtract(TLCoin(doubleValue: 0.0006))
+        
         toAddressesAndAmount.setObject(TLSendFormData.instance().toAmount!, forKey: "amount" as NSCopying)
+        
         let toAddressesAndAmounts = NSArray(objects: toAddressesAndAmount)
         
         let signTx = !AppDelegate.instance().godSend!.isColdWalletAccount()
@@ -273,7 +283,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
         
         print(toAddressesAndAmount)
         let ret = AppDelegate.instance().godSend!.createSignedSerializedTransactionHex(toAddressesAndAmounts,
-                                                                                       feeAmount: TLSendFormData.instance().feeAmount!,
+                                                                                       feeAmount: newFeeAmount!,
                                                                                        signTx: signTx,
                                                                                        error: {
                                                                                         (data: String?) in

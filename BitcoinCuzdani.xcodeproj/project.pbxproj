@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		371609F6191B495389E4EF29 /* libPods-ArcBit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CDAAD6F71CF30CCD5BBD6 /* libPods-ArcBit.a */; };
 		4DAF288C1FC7AE8900A84DF2 /* ArcBit.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C04A50E91B1792A8001FCE4E /* ArcBit.entitlements */; };
+		75A23D0F4417C9D07C96A886 /* libPods-BitcoinCuzdaniTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 820CAACA54C38183B540BD7E /* libPods-BitcoinCuzdaniTests.a */; };
+		ABEE72B0E8AB7A12A85F40D9 /* libPods-BitcoinCuzdani.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC34FBB8C9546F552D9A0610 /* libPods-BitcoinCuzdani.a */; };
 		C004134A1ACEFAF200505F31 /* TLOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00413491ACEFAF200505F31 /* TLOperationsManager.swift */; };
 		C004134B1ACEFCB700505F31 /* TLOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00413491ACEFAF200505F31 /* TLOperationsManager.swift */; };
 		C01681A21DB0B1D9004D5FD7 /* TLBrainWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01681A11DB0B1D9004D5FD7 /* TLBrainWalletViewController.swift */; };
@@ -301,10 +302,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C0AC5760E91ED5118C9F23 /* Pods-BitcoinCuzdaniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinCuzdaniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinCuzdaniTests/Pods-BitcoinCuzdaniTests.release.xcconfig"; sourceTree = "<group>"; };
 		173E65BB79838FECABC37B10 /* Pods-ArcBitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcBitTests/Pods-ArcBitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2404AE529D974505857C03D7 /* Pods-BitcoinCuzdani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinCuzdani.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinCuzdani/Pods-BitcoinCuzdani.release.xcconfig"; sourceTree = "<group>"; };
 		3C7ACA9C0834D6AF891F762C /* Pods-ArcBitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcBitTests/Pods-ArcBitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2064592A178B22D8D861BB /* Pods-BitcoinCuzdaniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinCuzdaniTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinCuzdaniTests/Pods-BitcoinCuzdaniTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C8CDAAD6F71CF30CCD5BBD6 /* libPods-ArcBit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArcBit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820CAACA54C38183B540BD7E /* libPods-BitcoinCuzdaniTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitcoinCuzdaniTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA36D9E0C4AFE7E2A43F3C79 /* Pods-ArcBit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcBit/Pods-ArcBit.release.xcconfig"; sourceTree = "<group>"; };
+		AFA08A9B4B943C8286FAEE1F /* Pods-BitcoinCuzdani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinCuzdani.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinCuzdani/Pods-BitcoinCuzdani.debug.xcconfig"; sourceTree = "<group>"; };
 		BABE2B037811FC35D025CD09 /* libPods-ArcBitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArcBitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00413491ACEFAF200505F31 /* TLOperationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLOperationsManager.swift; sourceTree = "<group>"; };
 		C01681A11DB0B1D9004D5FD7 /* TLBrainWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLBrainWalletViewController.swift; sourceTree = "<group>"; };
@@ -585,6 +591,7 @@
 		C0EE6D691B1B7E6000982692 /* 1200X1200logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1200X1200logo.png; sourceTree = "<group>"; };
 		C0F278C71C41EA1A0013DC1A /* TLCurrencyFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCurrencyFormat.swift; sourceTree = "<group>"; };
 		C4D7E88E9BE3FC3994E59767 /* Pods-ArcBit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcBit/Pods-ArcBit.debug.xcconfig"; sourceTree = "<group>"; };
+		DC34FBB8C9546F552D9A0610 /* libPods-BitcoinCuzdani.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitcoinCuzdani.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F338F9551B794D1D00C02F74 /* TLWalletPassphrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLWalletPassphrase.swift; sourceTree = "<group>"; };
 		F338F9571B79718900C02F74 /* TLCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCrypto.swift; sourceTree = "<group>"; };
 		F37072451B8F570D0026505D /* TLWalletConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLWalletConfig.swift; sourceTree = "<group>"; };
@@ -610,7 +617,7 @@
 				C0A192D71ABF6EC200BED648 /* AVFoundation.framework in Frameworks */,
 				C0A192D51ABF6EB900BED648 /* QuartzCore.framework in Frameworks */,
 				C0A192D31ABF6EB200BED648 /* CoreGraphics.framework in Frameworks */,
-				371609F6191B495389E4EF29 /* libPods-ArcBit.a in Frameworks */,
+				ABEE72B0E8AB7A12A85F40D9 /* libPods-BitcoinCuzdani.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E43EEB86A2A43FC05335C4 /* libPods-ArcBitTests.a in Frameworks */,
+				75A23D0F4417C9D07C96A886 /* libPods-BitcoinCuzdaniTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +640,10 @@
 				AA36D9E0C4AFE7E2A43F3C79 /* Pods-ArcBit.release.xcconfig */,
 				3C7ACA9C0834D6AF891F762C /* Pods-ArcBitTests.debug.xcconfig */,
 				173E65BB79838FECABC37B10 /* Pods-ArcBitTests.release.xcconfig */,
+				AFA08A9B4B943C8286FAEE1F /* Pods-BitcoinCuzdani.debug.xcconfig */,
+				2404AE529D974505857C03D7 /* Pods-BitcoinCuzdani.release.xcconfig */,
+				7A2064592A178B22D8D861BB /* Pods-BitcoinCuzdaniTests.debug.xcconfig */,
+				14C0AC5760E91ED5118C9F23 /* Pods-BitcoinCuzdaniTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -654,6 +666,8 @@
 				C0A192D21ABF6EB200BED648 /* CoreGraphics.framework */,
 				7C8CDAAD6F71CF30CCD5BBD6 /* libPods-ArcBit.a */,
 				BABE2B037811FC35D025CD09 /* libPods-ArcBitTests.a */,
+				DC34FBB8C9546F552D9A0610 /* libPods-BitcoinCuzdani.a */,
+				820CAACA54C38183B540BD7E /* libPods-BitcoinCuzdaniTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1303,7 +1317,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = BitcoinCuzdani;
 				TargetAttributes = {
 					C0A18F8D1ABF51C200BED648 = {
@@ -1422,7 +1436,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArcBit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinCuzdani-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1441,7 +1455,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcBitTests/Pods-ArcBitTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinCuzdaniTests/Pods-BitcoinCuzdaniTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6ABB43AFCFDF0A2994449960 /* [CP] Embed Pods Frameworks */ = {
@@ -1456,7 +1470,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcBit/Pods-ArcBit-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinCuzdani/Pods-BitcoinCuzdani-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73FC12304A7AE0663DF98D3A /* [CP] Embed Pods Frameworks */ = {
@@ -1471,7 +1485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcBitTests/Pods-ArcBitTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinCuzdaniTests/Pods-BitcoinCuzdaniTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		782EBA77421757A4C888700E /* [CP] Check Pods Manifest.lock */ = {
@@ -1485,7 +1499,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArcBitTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinCuzdaniTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1504,7 +1518,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcBit/Pods-ArcBit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinCuzdani/Pods-BitcoinCuzdani-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C0698B451CFB7D4900115062 /* ShellScript */ = {
@@ -1861,17 +1875,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1880,6 +1903,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1904,17 +1928,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1922,6 +1955,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1931,13 +1965,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C0A18FAE1ABF51C200BED648 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D7E88E9BE3FC3994E59767 /* Pods-ArcBit.debug.xcconfig */;
+			baseConfigurationReference = AFA08A9B4B943C8286FAEE1F /* Pods-BitcoinCuzdani.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BitcoinCuzdani/ArcBit.entitlements;
@@ -1959,7 +1994,7 @@
 		};
 		C0A18FAF1ABF51C200BED648 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA36D9E0C4AFE7E2A43F3C79 /* Pods-ArcBit.release.xcconfig */;
+			baseConfigurationReference = 2404AE529D974505857C03D7 /* Pods-BitcoinCuzdani.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BitcoinCuzdani/ArcBit.entitlements;
@@ -1981,7 +2016,7 @@
 		};
 		C0A18FB11ABF51C200BED648 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C7ACA9C0834D6AF891F762C /* Pods-ArcBitTests.debug.xcconfig */;
+			baseConfigurationReference = 7A2064592A178B22D8D861BB /* Pods-BitcoinCuzdaniTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -2006,7 +2041,7 @@
 		};
 		C0A18FB21ABF51C200BED648 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 173E65BB79838FECABC37B10 /* Pods-ArcBitTests.release.xcconfig */;
+			baseConfigurationReference = 14C0AC5760E91ED5118C9F23 /* Pods-BitcoinCuzdaniTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;

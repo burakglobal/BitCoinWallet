@@ -2130,13 +2130,13 @@
                                                     <action selector="customizeFeeButtonClicked:" destination="BoH-fs-Zva" eventType="touchUpInside" id="sC6-1y-JtX"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fee:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dK-Su-wIf">
-                                                <rect key="frame" x="0.0" y="66" width="76" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fee (Include Platform Fee):" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dK-Su-wIf">
+                                                <rect key="frame" x="0.0" y="42" width="76" height="93"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="RAA-Ce-qR1"/>
+                                                    <constraint firstAttribute="height" constant="93" id="RAA-Ce-qR1"/>
                                                     <constraint firstAttribute="width" constant="76" id="SPw-Ci-90V"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -2214,7 +2214,7 @@
                                             <constraint firstItem="jQ2-VE-bsm" firstAttribute="width" secondItem="UKQ-n4-f8s" secondAttribute="width" id="H61-JU-Pu8"/>
                                             <constraint firstItem="cV8-uv-FpY" firstAttribute="top" secondItem="cpe-kI-VzV" secondAttribute="bottom" constant="8" id="J7j-se-sOj"/>
                                             <constraint firstItem="NfN-kQ-zfd" firstAttribute="top" secondItem="oZR-cM-be2" secondAttribute="top" constant="8" id="KjO-Us-HP2"/>
-                                            <constraint firstItem="6dK-Su-wIf" firstAttribute="top" secondItem="yRL-oX-vHz" secondAttribute="bottom" constant="8" id="MNx-fI-Qai"/>
+                                            <constraint firstItem="6dK-Su-wIf" firstAttribute="top" secondItem="yRL-oX-vHz" secondAttribute="bottom" constant="-16" id="MNx-fI-Qai"/>
                                             <constraint firstItem="Va3-CW-hze" firstAttribute="leading" secondItem="NfN-kQ-zfd" secondAttribute="leading" id="MmB-OO-NRO"/>
                                             <constraint firstItem="jQ2-VE-bsm" firstAttribute="leading" secondItem="UKQ-n4-f8s" secondAttribute="leading" id="NMd-fk-MxG"/>
                                             <constraint firstItem="QVc-hR-SLY" firstAttribute="centerY" secondItem="bta-AA-vWW" secondAttribute="centerY" id="NeK-1t-Vcw"/>
@@ -2314,7 +2314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dfa-N8-xQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1921" y="73"/>
+            <point key="canvasLocation" x="1920.8" y="72.413793103448285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gvM-v0-LkS">
@@ -4085,6 +4085,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="s7I-Xo-HUH"/>
-        <segue reference="jbc-qB-Ba2"/>
+        <segue reference="ywA-pj-yl1"/>
     </inferredMetricsTieBreakers>
 </document>

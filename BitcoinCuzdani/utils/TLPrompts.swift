@@ -250,22 +250,34 @@ class TLPrompts {
     }
     
     class func promptSuccessMessage(_ title: String?, message: String) -> () {
-        let av = UIAlertView(title: title ?? "",
-            message: message,
-            delegate: nil,
-            cancelButtonTitle: nil,
-            otherButtonTitles: TLDisplayStrings.OK_STRING())
-        
-        av.show()
-    }
+//        let av = UIAlertView(title: title ?? "",
+//            message: message,
+//            delegate: nil,
+//            cancelButtonTitle: nil,
+//            otherButtonTitles: TLDisplayStrings.OK_STRING())
+//
+//        av.show()
+
     
+        let banner = Banner(title: title, subtitle: message, image: #imageLiteral(resourceName: "alert"), backgroundColor: TLColors.mainAppColor())
+        banner.dismissesOnTap = true
+        banner.show(duration: 3)
+    }
+    // MARK: MESAJ
     class func promptErrorMessage(_ title: String, message: String) -> () {
-        let av = UIAlertView(title: title,
-            message: message,
-            delegate: nil,
-            cancelButtonTitle: nil,
-            otherButtonTitles: TLDisplayStrings.OK_STRING())
+//        let av = UIAlertView(title: title,
+//            message: message,
+//            delegate: nil,
+//            cancelButtonTitle: nil,
+//            otherButtonTitles: TLDisplayStrings.OK_STRING())
+//
+//        av.show()
         
-        av.show()
+        let banner = Banner(title: title, subtitle: message, image: #imageLiteral(resourceName: "alert"), backgroundColor: UIColor.red)
+        banner.dismissesOnTap = true
+        banner.show(duration: 3)
+
+        
+        
     }
 }

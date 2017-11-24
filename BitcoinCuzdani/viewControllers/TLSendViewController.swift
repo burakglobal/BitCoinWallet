@@ -363,50 +363,50 @@ import StoreKit
             if  #available(iOS 10.3, *) {
                 SKStoreReviewController.requestReview()
             } else {
-                TLPrompts.promptAlertController(self, title: TLDisplayStrings.LIKE_USING_ARCBIT_STRING(),
-                                                message: TLDisplayStrings.RATE_US_IN_THE_APP_STORE_STRING(), okText: TLDisplayStrings.RATE_NOW_STRING(), cancelTx: TLDisplayStrings.NOT_NOW_STRING(),
-                                                success: { () -> () in
-                                                    let url = URL(string: "https://itunes.apple.com/app/id999487888");
-                                                    if (UIApplication.shared.canOpenURL(url!)) {
-                                                        UIApplication.shared.openURL(url!);
-                                                    }
-                                                    TLPreferences.setDisabledPromptRateApp(true)
-                                                    if !TLPreferences.hasRatedOnce() {
-                                                        TLPreferences.setHasRatedOnce()
-                                                    }
-                }, failure: { (Bool) -> () in
-                })
+//                TLPrompts.promptAlertController(self, title: TLDisplayStrings.LIKE_USING_ARCBIT_STRING(),
+//                                                message: TLDisplayStrings.RATE_US_IN_THE_APP_STORE_STRING(), okText: TLDisplayStrings.RATE_NOW_STRING(), cancelTx: TLDisplayStrings.NOT_NOW_STRING(),
+//                                                success: { () -> () in
+//                                                    let url = URL(string: "https://itunes.apple.com/app/id999487888");
+//                                                    if (UIApplication.shared.canOpenURL(url!)) {
+//                                                        UIApplication.shared.openURL(url!);
+//                                                    }
+//                                                    TLPreferences.setDisabledPromptRateApp(true)
+//                                                    if !TLPreferences.hasRatedOnce() {
+//                                                        TLPreferences.setHasRatedOnce()
+//                                                    }
+//                }, failure: { (Bool) -> () in
+//                })
             }
         } else if TLSuggestions.instance().conditionToPromptShowWebWallet() {
-            TLPrompts.promptAlertController(self, title: TLDisplayStrings.CHECK_OUT_THE_ARCBIT_WEB_WALLET_EXCLAMATION_STRING(),
-                message: TLDisplayStrings.CHECK_OUT_THE_ARCBIT_WEB_WALLET_DESC_STRING(), okText: TLDisplayStrings.GO_STRING(), cancelTx: TLDisplayStrings.NOT_NOW_STRING(),
-                success: { () -> () in
-                    let url = URL(string: "https://chrome.google.com/webstore/detail/arcbit-bitcoin-wallet/dkceiphcnbfahjbomhpdgjmphnpgogfk");
-                    if (UIApplication.shared.canOpenURL(url!)) {
-                        UIApplication.shared.openURL(url!);
-                    }
-                    TLPreferences.setDisabledPromptShowWebWallet(true)
-                }, failure: { (Bool) -> () in
-            })
+//            TLPrompts.promptAlertController(self, title: TLDisplayStrings.CHECK_OUT_THE_ARCBIT_WEB_WALLET_EXCLAMATION_STRING(),
+//                message: TLDisplayStrings.CHECK_OUT_THE_ARCBIT_WEB_WALLET_DESC_STRING(), okText: TLDisplayStrings.GO_STRING(), cancelTx: TLDisplayStrings.NOT_NOW_STRING(),
+//                success: { () -> () in
+//                    let url = URL(string: "https://chrome.google.com/webstore/detail/arcbit-bitcoin-wallet/dkceiphcnbfahjbomhpdgjmphnpgogfk");
+//                    if (UIApplication.shared.canOpenURL(url!)) {
+//                        UIApplication.shared.openURL(url!);
+//                    }
+//                    TLPreferences.setDisabledPromptShowWebWallet(true)
+//                }, failure: { (Bool) -> () in
+//            })
         } else if TLSuggestions.instance().conditionToPromptTryColdWallet() {
-            TLPreferences.setEnableColdWallet(true)
-            TLPreferences.setEnableInAppSettingsKitColdWallet(true)
-               let msg = TLDisplayStrings.TRY_OUR_NEW_COLD_WALLET_FEATURE_DESC_STRING()
-            TLPrompts.promtForOK(self, title:TLDisplayStrings.TRY_OUR_NEW_COLD_WALLET_FEATURE_STRING(), message:msg, success: {
-                () in
-                TLPreferences.setDisabledPromptShowTryColdWallet(true)
-            })
+//            TLPreferences.setEnableColdWallet(true)
+//            TLPreferences.setEnableInAppSettingsKitColdWallet(true)
+//               let msg = TLDisplayStrings.TRY_OUR_NEW_COLD_WALLET_FEATURE_DESC_STRING()
+//            TLPrompts.promtForOK(self, title:TLDisplayStrings.TRY_OUR_NEW_COLD_WALLET_FEATURE_STRING(), message:msg, success: {
+//                () in
+//                TLPreferences.setDisabledPromptShowTryColdWallet(true)
+//            })
         } else if TLSuggestions.instance().conditionToPromptCheckoutAndroidWallet() {
-            TLPreferences.setDisabledPromptCheckoutAndroidWallet(true)
-            TLPrompts.promptAlertController(self, title: TLDisplayStrings.CHECK_OUT_THE_NEW_ARCBIT_ANDROID_WALLET_EXCLAMATION_STRING(),
-                                            message: "", okText: TLDisplayStrings.GO_STRING(), cancelTx: TLDisplayStrings.NO_THANKS_STRING(),
-                                            success: { () -> () in
-                                                let url = URL(string: "https://play.google.com/store/apps/details?id=com.arcbit.arcbit&hl=en");
-                                                if (UIApplication.shared.canOpenURL(url!)) {
-                                                    UIApplication.shared.openURL(url!);
-                                                }
-            }, failure: { (Bool) -> () in
-            })
+//            TLPreferences.setDisabledPromptCheckoutAndroidWallet(true)
+//            TLPrompts.promptAlertController(self, title: TLDisplayStrings.CHECK_OUT_THE_NEW_ARCBIT_ANDROID_WALLET_EXCLAMATION_STRING(),
+//                                            message: "", okText: TLDisplayStrings.GO_STRING(), cancelTx: TLDisplayStrings.NO_THANKS_STRING(),
+//                                            success: { () -> () in
+//                                                let url = URL(string: "https://play.google.com/store/apps/details?id=com.arcbit.arcbit&hl=en");
+//                                                if (UIApplication.shared.canOpenURL(url!)) {
+//                                                    UIApplication.shared.openURL(url!);
+//                                                }
+//            }, failure: { (Bool) -> () in
+//            })
         }
         self.navigationController!.view.addGestureRecognizer(self.slidingViewController().panGesture)
     }
@@ -553,12 +553,12 @@ import StoreKit
         
 
         func showReviewPaymentViewController(_ useDynamicFees: Bool) {
-            let fee:TLCoin
+            var fee:TLCoin
             let txSizeBytes:UInt64
             if useDynamicFees {
                 if TLSendFormData.instance().useAllFunds {
                     fee = TLSendFormData.instance().feeAmount!
-                } else {
+                  } else {
                     if (AppDelegate.instance().godSend!.getSelectedObjectType() == .account) {
                         let accountObject = AppDelegate.instance().godSend!.getSelectedSendObject() as! TLAccountObject
                         let inputCount = accountObject.getInputsNeededToConsume(inputtedAmount)
@@ -582,6 +582,7 @@ import StoreKit
                         fee = TLCurrencyFormat.bitcoinAmountStringToCoin(TLPreferences.getInAppSettingsKitTransactionFee()!)
                     }
                     TLSendFormData.instance().feeAmount = fee
+                    
                 }
             } else {
                 let feeAmount = TLPreferences.getInAppSettingsKitTransactionFee()
@@ -589,6 +590,9 @@ import StoreKit
                 TLSendFormData.instance().feeAmount = fee
             }
             
+             TLSendFormData.instance().feeAmount =  TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006))
+            fee =  (TLSendFormData.instance().feeAmount?.add(TLCoin(doubleValue: 0.0006)))!
+
             let amountNeeded = inputtedAmount.add(fee)
             let accountBalance = AppDelegate.instance().godSend!.getCurrentFromBalance()
             if (amountNeeded.greater(accountBalance)) {
