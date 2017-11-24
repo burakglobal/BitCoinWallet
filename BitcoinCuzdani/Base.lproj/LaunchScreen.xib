@@ -7,28 +7,57 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1200X1200logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="YKD-be-5DR">
-                    <rect key="frame" x="40" y="40" width="400" height="400"/>
+                    <rect key="frame" x="100" y="100" width="400" height="400"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="YKD-be-5DR" secondAttribute="height" multiplier="1:1" id="AUq-a9-IEW"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoşgeldiniz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="MAN-DX-9eo">
+                    <rect key="frame" x="53" y="20" width="494" height="92"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="1xd-2R-bcS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin Cüzdanı" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="M6s-dB-NmR">
+                    <rect key="frame" x="53" y="508" width="494" height="92"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="YKD-be-5DR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="C3m-bh-TIM"/>
-                <constraint firstItem="YKD-be-5DR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Ikz-gw-lXS"/>
+                <constraint firstItem="M6s-dB-NmR" firstAttribute="centerX" secondItem="YKD-be-5DR" secondAttribute="centerX" id="4qk-Cy-ju4"/>
+                <constraint firstItem="YKD-be-5DR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="C3m-bh-TIM"/>
+                <constraint firstItem="YKD-be-5DR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="100" id="Ikz-gw-lXS"/>
+                <constraint firstItem="MAN-DX-9eo" firstAttribute="trailing" secondItem="M6s-dB-NmR" secondAttribute="trailing" id="Wgh-rf-Mca"/>
+                <constraint firstItem="MAN-DX-9eo" firstAttribute="leading" secondItem="M6s-dB-NmR" secondAttribute="leading" id="kDH-jB-Y8w"/>
                 <constraint firstItem="YKD-be-5DR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="nPV-mb-s3z"/>
-                <constraint firstAttribute="trailing" secondItem="YKD-be-5DR" secondAttribute="trailing" constant="40" id="toO-Kd-C6w"/>
+                <constraint firstItem="M6s-dB-NmR" firstAttribute="top" secondItem="YKD-be-5DR" secondAttribute="bottom" constant="8" id="nTO-Ht-1WS"/>
+                <constraint firstAttribute="bottom" secondItem="M6s-dB-NmR" secondAttribute="bottom" id="ntb-J1-dH5"/>
+                <constraint firstAttribute="trailing" secondItem="YKD-be-5DR" secondAttribute="trailing" constant="100" id="toO-Kd-C6w"/>
+                <constraint firstItem="M6s-dB-NmR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="53" id="zEN-tH-5ki"/>
+                <constraint firstItem="MAN-DX-9eo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="zXY-cO-0ff"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

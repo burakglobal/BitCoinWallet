@@ -765,24 +765,34 @@
                                         <rect key="frame" x="169" y="558" width="37" height="37"/>
                                     </activityIndicatorView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1200X1200logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="J6D-zi-kKD">
-                                        <rect key="frame" x="40" y="154" width="295" height="295"/>
+                                        <rect key="frame" x="113" y="226" width="150" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="J6D-zi-kKD" secondAttribute="height" multiplier="1:1" id="q7o-iX-qSQ"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin Cüzdanı" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVG-tN-0YI">
+                                        <rect key="frame" x="0.0" y="384" width="375" height="92"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="J6D-zi-kKD" firstAttribute="leading" secondItem="Fw4-PF-tr4" secondAttribute="leading" id="0YJ-XA-tuK"/>
                                     <constraint firstItem="yTc-Vg-3qg" firstAttribute="centerX" secondItem="J6D-zi-kKD" secondAttribute="centerX" id="6vN-f8-OUl"/>
+                                    <constraint firstItem="yTc-Vg-3qg" firstAttribute="top" secondItem="WVG-tN-0YI" secondAttribute="bottom" constant="82" id="CBt-lT-HBo"/>
+                                    <constraint firstItem="WVG-tN-0YI" firstAttribute="leading" secondItem="Fw4-PF-tr4" secondAttribute="leading" id="CXe-PG-MpF"/>
                                     <constraint firstItem="J6D-zi-kKD" firstAttribute="top" secondItem="Fw4-PF-tr4" secondAttribute="top" id="ETR-Eg-lkM"/>
                                     <constraint firstAttribute="bottom" secondItem="J6D-zi-kKD" secondAttribute="bottom" id="Iez-kg-KA8"/>
                                     <constraint firstItem="yTc-Vg-3qg" firstAttribute="bottom" secondItem="Fw4-PF-tr4" secondAttribute="bottomMargin" id="Tqk-Dj-YAj"/>
                                     <constraint firstItem="J6D-zi-kKD" firstAttribute="centerY" secondItem="Fw4-PF-tr4" secondAttribute="centerY" id="UKx-U6-Ydb"/>
                                     <constraint firstItem="J6D-zi-kKD" firstAttribute="centerX" secondItem="yTc-Vg-3qg" secondAttribute="centerX" id="fTy-Fn-lmD"/>
                                     <constraint firstAttribute="trailing" secondItem="J6D-zi-kKD" secondAttribute="trailing" id="hvc-fe-KFc"/>
-                                    <constraint firstAttribute="trailing" secondItem="J6D-zi-kKD" secondAttribute="trailing" constant="40" id="jQt-Af-4cW"/>
-                                    <constraint firstItem="J6D-zi-kKD" firstAttribute="leading" secondItem="Fw4-PF-tr4" secondAttribute="leading" constant="40" id="rpS-mn-O0k"/>
+                                    <constraint firstAttribute="trailing" secondItem="J6D-zi-kKD" secondAttribute="trailing" constant="112" id="jQt-Af-4cW"/>
+                                    <constraint firstItem="WVG-tN-0YI" firstAttribute="centerX" secondItem="yTc-Vg-3qg" secondAttribute="centerX" id="mji-Z5-ysk"/>
+                                    <constraint firstItem="J6D-zi-kKD" firstAttribute="leading" secondItem="Fw4-PF-tr4" secondAttribute="leading" constant="113" id="rpS-mn-O0k"/>
+                                    <constraint firstItem="WVG-tN-0YI" firstAttribute="top" secondItem="J6D-zi-kKD" secondAttribute="bottom" constant="8" symbolic="YES" id="uMB-N4-6m7"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -812,7 +822,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OT8-o1-faJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1006" y="215"/>
+            <point key="canvasLocation" x="-1007.2" y="214.54272863568218"/>
         </scene>
         <!--Help-->
         <scene sceneID="wlN-qB-9Nx">
@@ -4085,6 +4095,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="s7I-Xo-HUH"/>
-        <segue reference="ywA-pj-yl1"/>
+        <segue reference="jbc-qB-Ba2"/>
     </inferredMetricsTieBreakers>
 </document>
