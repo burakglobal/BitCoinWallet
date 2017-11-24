@@ -33,31 +33,31 @@
 "4al-pX-1Gn.title" = "Restore Wallet";
 
 /* Class = "UITabBarItem"; title = "Send"; ObjectID = "4mb-2o-3A1"; */
-"4mb-2o-3A1.title" = "Send";
+"4mb-2o-3A1.title" = "Gönder";
 
 /* Class = "UITextField"; text = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds"; ObjectID = "4p4-5y-JUZ"; */
 "4p4-5y-JUZ.text" = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds";
 
 /* Class = "UITabBarItem"; title = "Receive"; ObjectID = "4vC-pM-f1o"; */
-"4vC-pM-f1o.title" = "Receive";
+"4vC-pM-f1o.title" = "Ödeme Al";
 
 /* Class = "UINavigationItem"; title = "Links"; ObjectID = "4vj-uf-BUZ"; */
-"4vj-uf-BUZ.title" = "Links";
+"4vj-uf-BUZ.title" = "Bağlantılar";
 
 /* Class = "UILabel"; text = "Amount:"; ObjectID = "59b-yN-GFc"; */
-"59b-yN-GFc.text" = "Amount:";
+"59b-yN-GFc.text" = "Tutar:";
 
 /* Class = "UILabel"; text = "Account Name"; ObjectID = "5EJ-8r-ive"; */
-"5EJ-8r-ive.text" = "Account Name";
+"5EJ-8r-ive.text" = "Hesap Adı";
 
 /* Class = "UILabel"; text = "Master Seed Hex"; ObjectID = "6BY-dx-fLW"; */
 "6BY-dx-fLW.text" = "Master Seed Hex";
 
 /* Class = "UITextField"; placeholder = "address"; ObjectID = "6V1-g4-Kqz"; */
-"6V1-g4-Kqz.placeholder" = "address";
+"6V1-g4-Kqz.placeholder" = "Adres";
 
 /* Class = "UILabel"; text = "Fee (Include Platform Fee):"; ObjectID = "6dK-Su-wIf"; */
-"6dK-Su-wIf.text" = "Fee (Include Platform Fee):";
+"6dK-Su-wIf.text" = "Tranfer Ücreti:";
 
 /* Class = "UITextField"; text = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds"; ObjectID = "6iR-L6-vEV"; */
 "6iR-L6-vEV.text" = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds";
@@ -66,10 +66,10 @@
 "7FD-gV-OIx.text" = "BTC";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "7uk-nQ-Elq"; */
-"7uk-nQ-Elq.normalTitle" = "QR Code";
+"7uk-nQ-Elq.normalTitle" = "QR Kodu";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "8PH-F7-qh6"; */
-"8PH-F7-qh6.normalTitle" = "QR Code";
+"8PH-F7-qh6.normalTitle" = "QR Kodu";
 
 /* Class = "UITextView"; text = "street ankle life mass ready viable worth renew stove panther immense camera"; ObjectID = "8T4-K7-DEy"; */
 "8T4-K7-DEy.text" = "street ankle life mass ready viable worth renew stove panther immense camera";
@@ -78,13 +78,13 @@
 "8bg-zJ-MLy.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "98i-Oo-pHA"; */
-"98i-Oo-pHA.normalTitle" = "QR Code";
+"98i-Oo-pHA.normalTitle" = "QR Kodu";
 
 /* Class = "UITextField"; text = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx"; ObjectID = "9Hg-Kd-50y"; */
 "9Hg-Kd-50y.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
 
 /* Class = "UILabel"; text = "Step 2: Input 12 word backup passphrase"; ObjectID = "9sL-6M-fQO"; */
-"9sL-6M-fQO.text" = "Step 2: Input 12 word backup passphrase";
+"9sL-6M-fQO.text" = "Step 2: 12 Kelimeden Oluşan Özel Şifrenizi Giriniz";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "AHj-6Y-pf6"; */
 "AHj-6Y-pf6.text" = "Label";
@@ -93,7 +93,7 @@
 "AUN-mh-2Qy.title" = "Root View Controller";
 
 /* Class = "UILabel"; text = "Incomplete"; ObjectID = "BDz-V2-QTc"; */
-"BDz-V2-QTc.text" = "Incomplete";
+"BDz-V2-QTc.text" = "Geçersiz";
 
 /* Class = "UILabel"; text = "Wallet backup passphrase"; ObjectID = "C32-6S-BC5"; */
 "C32-6S-BC5.text" = "Wallet backup passphrase";
@@ -162,19 +162,19 @@
 "Jrq-7q-biA.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
 
 /* Class = "UIButton"; normalTitle = "Contacts"; ObjectID = "JvL-Cg-kNK"; */
-"JvL-Cg-kNK.normalTitle" = "Contacts";
+"JvL-Cg-kNK.normalTitle" = "Kayıtlı Adresler";
 
 /* Class = "UITabBarItem"; title = "Send"; ObjectID = "KIz-U8-UaX"; */
-"KIz-U8-UaX.title" = "Send";
+"KIz-U8-UaX.title" = "Gönder";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Koj-wy-VOb"; */
 "Koj-wy-VOb.normalTitle" = "Button";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "LU1-2p-LAR"; */
-"LU1-2p-LAR.normalTitle" = "QR Code";
+"LU1-2p-LAR.normalTitle" = "QR Kodu";
 
 /* Class = "UILabel"; text = "100 Confimations"; ObjectID = "Lf7-5m-ufO"; */
-"Lf7-5m-ufO.text" = "100 Confimations";
+"Lf7-5m-ufO.text" = "100 Konfirmasyon";
 
 /* Class = "UITextField"; text = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx"; ObjectID = "LlW-tc-qEY"; */
 "LlW-tc-qEY.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
@@ -306,73 +306,73 @@
 "aog-r6-zfJ.text" = "Change Address ID 0:";
 
 /* Class = "UIButton"; normalTitle = "Review Payment"; ObjectID = "b97-9w-wKT"; */
-"b97-9w-wKT.normalTitle" = "Review Payment";
+"b97-9w-wKT.normalTitle" = "Transferi Başlat";
 
 /* Class = "UINavigationItem"; title = "Send"; ObjectID = "bCV-xP-8V6"; */
-"bCV-xP-8V6.title" = "Send";
+"bCV-xP-8V6.title" = "Gönder";
 
 /* Class = "UITextField"; text = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx"; ObjectID = "bQd-mI-uH9"; */
 "bQd-mI-uH9.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "bUQ-jb-flc"; */
-"bUQ-jb-flc.normalTitle" = "QR Code";
+"bUQ-jb-flc.normalTitle" = "QR Kodu";
 
 /* Class = "UILabel"; text = "100000.12345678 BTC"; ObjectID = "bc0-yo-6Ao"; */
 "bc0-yo-6Ao.text" = "100000.12345678 BTC";
 
 /* Class = "UIButton"; normalTitle = "Customize Fee"; ObjectID = "bta-AA-vWW"; */
-"bta-AA-vWW.normalTitle" = "Customize Fee";
+"bta-AA-vWW.normalTitle" = "Transfer Ücretini Değiştir";
 
 /* Class = "UILabel"; text = "Total:"; ObjectID = "cV8-uv-FpY"; */
-"cV8-uv-FpY.text" = "Total:";
+"cV8-uv-FpY.text" = "Toplam:";
 
 /* Class = "UILabel"; text = "Account Name"; ObjectID = "cmA-Xp-Fwi"; */
-"cmA-Xp-Fwi.text" = "Account Name";
+"cmA-Xp-Fwi.text" = "Hesap Adı";
 
 /* Class = "UITextField"; text = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds"; ObjectID = "czu-k8-dQ3"; */
 "czu-k8-dQ3.text" = "L5HJ8fiaSL2oGNUrgVcAnq284r9g43F6P2FsjidA7nwuhTDMEdds";
 
 /* Class = "UILabel"; text = "To:"; ObjectID = "dLL-tj-JB2"; */
-"dLL-tj-JB2.text" = "To:";
+"dLL-tj-JB2.text" = "Kime:";
 
 /* Class = "UILabel"; text = "Write down the 12 word passphrase below and keep it safe. You can restore your wallet with this single passphrase."; ObjectID = "evC-L0-0Dc"; */
-"evC-L0-0Dc.text" = "Write down the 12 word passphrase below and keep it safe. You can restore your wallet with this single passphrase.";
+"evC-L0-0Dc.text" = "Bu Özel Şifreyi Kaydediniz, Hesabınızı Kurtarmak İçin Gerekli Olacaktır!";
 
 /* Class = "UITextField"; text = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx"; ObjectID = "f2d-GA-xFX"; */
 "f2d-GA-xFX.text" = "1Jhrq6Uxfku5sK9mf3QNwmPb1WPbKPQ9Yx";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "gHg-xR-i65"; */
-"gHg-xR-i65.normalTitle" = "QR Code";
+"gHg-xR-i65.normalTitle" = "QR Kodu";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "gw0-28-gSi"; */
-"gw0-28-gSi.normalTitle" = "QR Code";
+"gw0-28-gSi.normalTitle" = "QR Kodu";
 
 /* Class = "UITextView"; text = "street ankle life mass ready viable worth renew stove panther immense camera"; ObjectID = "h73-3F-Pi3"; */
 "h73-3F-Pi3.text" = "street ankle life mass ready viable worth renew stove panther immense camera";
 
 /* Class = "UITabBarItem"; title = "Receive"; ObjectID = "hWO-u0-HoS"; */
-"hWO-u0-HoS.title" = "Receive";
+"hWO-u0-HoS.title" = "Ödeme Al";
 
 /* Class = "UILabel"; text = "Account Private Key:"; ObjectID = "hvV-BT-VFx"; */
-"hvV-BT-VFx.text" = "Account Private Key:";
+"hvV-BT-VFx.text" = "Hesap Özel Şifre:";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "i0i-6T-FsV"; */
 "i0i-6T-FsV.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Scan QR"; ObjectID = "i9k-eB-RT8"; */
-"i9k-eB-RT8.normalTitle" = "Scan QR";
+"i9k-eB-RT8.normalTitle" = "QR Kodu Tara";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "iHQ-HC-h7I"; */
-"iHQ-HC-h7I.normalTitle" = "QR Code";
+"iHQ-HC-h7I.normalTitle" = "QR Kodu";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "iQv-V2-g9F"; */
-"iQv-V2-g9F.normalTitle" = "QR Code";
+"iQv-V2-g9F.normalTitle" = "QR Kodu";
 
 /* Class = "UILabel"; text = "1000000.00"; ObjectID = "ict-FH-day"; */
 "ict-FH-day.text" = "1000000.00";
 
 /* Class = "UIButton"; normalTitle = "New Wallet"; ObjectID = "imI-wQ-7jn"; */
-"imI-wQ-7jn.normalTitle" = "New Wallet";
+"imI-wQ-7jn.normalTitle" = "Yeni Cüzdan";
 
 /* Class = "UITextField"; placeholder = "0"; ObjectID = "ixE-Ze-q3A"; */
 "ixE-Ze-q3A.placeholder" = "0";
@@ -381,10 +381,10 @@
 "jQ2-VE-bsm.text" = "1,000,000.12345678";
 
 /* Class = "UINavigationItem"; title = "History"; ObjectID = "kF7-DP-jfw"; */
-"kF7-DP-jfw.title" = "History";
+"kF7-DP-jfw.title" = "Geçmiş";
 
 /* Class = "UIButton"; normalTitle = "Show QR"; ObjectID = "kND-lh-fVh"; */
-"kND-lh-fVh.normalTitle" = "Show QR";
+"kND-lh-fVh.normalTitle" = "QR Kodu Göster";
 
 /* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "kOc-Zv-Dw2"; */
 "kOc-Zv-Dw2.normalTitle" = "QR Code";
@@ -462,13 +462,13 @@
 "tZh-nZ-RvU.normalTitle" = "QR Code";
 
 /* Class = "UILabel"; text = "From:"; ObjectID = "u6a-ff-Ab7"; */
-"u6a-ff-Ab7.text" = "From:";
+"u6a-ff-Ab7.text" = "Hangi Hesaptan:";
 
 /* Class = "UILabel"; text = "Starting Receiving Address ID:"; ObjectID = "wHc-Lm-EHM"; */
 "wHc-Lm-EHM.text" = "Starting Receiving Address ID:";
 
 /* Class = "UINavigationItem"; title = "Receive"; ObjectID = "wZG-Zf-k4F"; */
-"wZG-Zf-k4F.title" = "Receive";
+"wZG-Zf-k4F.title" = "Ödeme Al";
 
 /* Class = "UILabel"; text = "The master seed hex is derived from the passphrase. If you want to import Bitcoins into another wallet, and if that other wallets don't use BIP39, then it's possible to import the Bitcoins using the master seed hex as long as they support BIP44."; ObjectID = "wjz-SH-FCO"; */
 "wjz-SH-FCO.text" = "The master seed hex is derived from the passphrase. If you want to import Bitcoins into another wallet, and if that other wallets don't use BIP39, then it's possible to import the Bitcoins using the master seed hex as long as they support BIP44.";
@@ -477,16 +477,16 @@
 "xa4-b8-Sm0.text" = "Account Public Key:";
 
 /* Class = "UILabel"; text = "To:"; ObjectID = "xuQ-JE-0IT"; */
-"xuQ-JE-0IT.text" = "To:";
+"xuQ-JE-0IT.text" = "Kime:";
 
 /* Class = "UILabel"; text = "Amount:"; ObjectID = "yRL-oX-vHz"; */
-"yRL-oX-vHz.text" = "Amount:";
+"yRL-oX-vHz.text" = "Tutar:";
 
 /* Class = "UILabel"; text = "From:"; ObjectID = "yUe-8I-uLU"; */
-"yUe-8I-uLU.text" = "From:";
+"yUe-8I-uLU.text" = "Kimden:";
 
 /* Class = "UILabel"; text = "Account ID:"; ObjectID = "zQb-q1-edR"; */
-"zQb-q1-edR.text" = "Account ID:";
+"zQb-q1-edR.text" = "Hesap ID:";
 
 /* Class = "UINavigationItem"; title = "Passphrase"; ObjectID = "zdP-16-weC"; */
-"zdP-16-weC.title" = "Passphrase";
+"zdP-16-weC.title" = "Özel Şifre";

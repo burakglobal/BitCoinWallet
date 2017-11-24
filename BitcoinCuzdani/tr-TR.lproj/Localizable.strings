@@ -86,7 +86,7 @@
 
 "It is not recommended that you use a regular bitcoin address for multiple payments, but instead you should import a reusable address. Add address anyways?" = "It is not recommended that you use a regular bitcoin address for multiple payments, but instead you should import a reusable address. Add address anyways?";
 
-"Invalid Address" = "Invalid Address";
+"Invalid Address" = "Geçersiz Bitcoin Adresi";
 
 "Input label for address" = "Input label for address";
 
@@ -104,7 +104,7 @@
 
 "Your current wallet will be deleted. Your can restore your current wallet later with the wallet passphrase, but any imported accounts or addresses created in advanced mode cannot be recovered. Do you wish to continue?" = "Your current wallet will be deleted. Your can restore your current wallet later with the wallet passphrase, but any imported accounts or addresses created in advanced mode cannot be recovered. Do you wish to continue?";
 
-"Restoring Wallet" = "Restoring Wallet";
+"Restoring Wallet" = "Cüzdan Geri Alınıyor";
 
 "Continue" = "Devam Et";
 
@@ -116,15 +116,15 @@
 
 "Invalid backup passphrase" = "Invalid backup passphrase";
 
-"Achievements" = "Achievements";
+"Achievements" = "Başarılar";
 
-"Explanation" = "Explanation";
+"Explanation" = "Açıklama";
 
 "Instructions" = "Instructions";
 
 "FAQ" = "FAQ";
 
-"How To:" = "How To:";
+"How To:" = "Nasıl Yapılır:";
 
 "Advance FAQ" = "Advance FAQ";
 
