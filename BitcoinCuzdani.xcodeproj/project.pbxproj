@@ -346,12 +346,12 @@
 		C0649CA11E256B52007E3965 /* TLAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAddressTableViewCell.swift; sourceTree = "<group>"; };
 		C0649CA21E256B52007E3965 /* TLTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLTransactionTableViewCell.swift; sourceTree = "<group>"; };
 		C0649CA61E256E16007E3965 /* TLDisplayStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLDisplayStrings.swift; sourceTree = "<group>"; };
-		C0A18F8E1ABF51C200BED648 /* ArcBit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A18F8E1ABF51C200BED648 /* BitcoinCuzdani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinCuzdani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A18F921ABF51C200BED648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A18F931ABF51C200BED648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A18F9A1ABF51C200BED648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0A18F9D1ABF51C200BED648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C0A18FA31ABF51C200BED648 /* ArcBitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A18FA31ABF51C200BED648 /* BitcoinCuzdaniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinCuzdaniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A18FA81ABF51C200BED648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A18FA91ABF51C200BED648 /* ArcBitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBitTests.swift; sourceTree = "<group>"; };
 		C0A18FB81ABF53A100BED648 /* arrow-right7-original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right7-original.png"; sourceTree = "<group>"; };
@@ -726,7 +726,7 @@
 		C0A18F851ABF51C200BED648 = {
 			isa = PBXGroup;
 			children = (
-				C0A18F901ABF51C200BED648 /* ArcBit */,
+				C0A18F901ABF51C200BED648 /* BitcoinCuzdani */,
 				C0A18FA61ABF51C200BED648 /* ArcBitTests */,
 				C0A18F8F1ABF51C200BED648 /* Products */,
 				65EAF1BBE7F17CF5F70A560B /* Frameworks */,
@@ -737,13 +737,13 @@
 		C0A18F8F1ABF51C200BED648 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0A18F8E1ABF51C200BED648 /* ArcBit.app */,
-				C0A18FA31ABF51C200BED648 /* ArcBitTests.xctest */,
+				C0A18F8E1ABF51C200BED648 /* BitcoinCuzdani.app */,
+				C0A18FA31ABF51C200BED648 /* BitcoinCuzdaniTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0A18F901ABF51C200BED648 /* ArcBit */ = {
+		C0A18F901ABF51C200BED648 /* BitcoinCuzdani */ = {
 			isa = PBXGroup;
 			children = (
 				C04A50E91B1792A8001FCE4E /* ArcBit.entitlements */,
@@ -761,7 +761,7 @@
 				C0A18FB31ABF53A100BED648 /* Assets */,
 				C0A18F911ABF51C200BED648 /* Supporting Files */,
 			);
-			path = ArcBit;
+			path = BitcoinCuzdani;
 			sourceTree = "<group>";
 		};
 		C0A18F911ABF51C200BED648 /* Supporting Files */ = {
@@ -1251,9 +1251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0A18F8D1ABF51C200BED648 /* ArcBit */ = {
+		C0A18F8D1ABF51C200BED648 /* BitcoinCuzdani */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A18FAD1ABF51C200BED648 /* Build configuration list for PBXNativeTarget "ArcBit" */;
+			buildConfigurationList = C0A18FAD1ABF51C200BED648 /* Build configuration list for PBXNativeTarget "BitcoinCuzdani" */;
 			buildPhases = (
 				172F38C0899F2CAA3997D54E /* [CP] Check Pods Manifest.lock */,
 				C0A18F8A1ABF51C200BED648 /* Sources */,
@@ -1268,14 +1268,14 @@
 			);
 			dependencies = (
 			);
-			name = ArcBit;
+			name = BitcoinCuzdani;
 			productName = ArcBit;
-			productReference = C0A18F8E1ABF51C200BED648 /* ArcBit.app */;
+			productReference = C0A18F8E1ABF51C200BED648 /* BitcoinCuzdani.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0A18FA21ABF51C200BED648 /* ArcBitTests */ = {
+		C0A18FA21ABF51C200BED648 /* BitcoinCuzdaniTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A18FB01ABF51C200BED648 /* Build configuration list for PBXNativeTarget "ArcBitTests" */;
+			buildConfigurationList = C0A18FB01ABF51C200BED648 /* Build configuration list for PBXNativeTarget "BitcoinCuzdaniTests" */;
 			buildPhases = (
 				782EBA77421757A4C888700E /* [CP] Check Pods Manifest.lock */,
 				C0A18F9F1ABF51C200BED648 /* Sources */,
@@ -1289,9 +1289,9 @@
 			dependencies = (
 				C0A18FA51ABF51C200BED648 /* PBXTargetDependency */,
 			);
-			name = ArcBitTests;
+			name = BitcoinCuzdaniTests;
 			productName = ArcBitTests;
-			productReference = C0A18FA31ABF51C200BED648 /* ArcBitTests.xctest */;
+			productReference = C0A18FA31ABF51C200BED648 /* BitcoinCuzdaniTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1303,7 +1303,7 @@
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = ArcBit;
+				ORGANIZATIONNAME = BitcoinCuzdani;
 				TargetAttributes = {
 					C0A18F8D1ABF51C200BED648 = {
 						CreatedOnToolsVersion = 6.2;
@@ -1322,7 +1322,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0A18F891ABF51C200BED648 /* Build configuration list for PBXProject "ArcBit" */;
+			buildConfigurationList = C0A18F891ABF51C200BED648 /* Build configuration list for PBXProject "BitcoinCuzdani" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1350,8 +1350,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0A18F8D1ABF51C200BED648 /* ArcBit */,
-				C0A18FA21ABF51C200BED648 /* ArcBitTests */,
+				C0A18F8D1ABF51C200BED648 /* BitcoinCuzdani */,
+				C0A18FA21ABF51C200BED648 /* BitcoinCuzdaniTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1783,7 +1783,7 @@
 /* Begin PBXTargetDependency section */
 		C0A18FA51ABF51C200BED648 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0A18F8D1ABF51C200BED648 /* ArcBit */;
+			target = C0A18F8D1ABF51C200BED648 /* BitcoinCuzdani */;
 			targetProxy = C0A18FA41ABF51C200BED648 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1948,7 +1948,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
-				PRODUCT_NAME = ArcBit;
+				PRODUCT_NAME = BitcoinCuzdani;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1970,7 +1970,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
-				PRODUCT_NAME = ArcBit;
+				PRODUCT_NAME = BitcoinCuzdani;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1994,11 +1994,11 @@
 				INFOPLIST_FILE = ArcBitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ArcBit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ArcBitTests;
+				PRODUCT_NAME = BitcoinCuzdaniTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBitTests/ArcBitTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBit.app/ArcBit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinCuzdani.app/BitcoinCuzdani";
 			};
 			name = Debug;
 		};
@@ -2015,17 +2015,17 @@
 				INFOPLIST_FILE = ArcBitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ArcBit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ArcBitTests;
+				PRODUCT_NAME = BitcoinCuzdaniTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "ArcBitTests/ArcBitTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBit.app/ArcBit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinCuzdani.app/BitcoinCuzdani";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0A18F891ABF51C200BED648 /* Build configuration list for PBXProject "ArcBit" */ = {
+		C0A18F891ABF51C200BED648 /* Build configuration list for PBXProject "BitcoinCuzdani" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A18FAB1ABF51C200BED648 /* Debug */,
@@ -2034,7 +2034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A18FAD1ABF51C200BED648 /* Build configuration list for PBXNativeTarget "ArcBit" */ = {
+		C0A18FAD1ABF51C200BED648 /* Build configuration list for PBXNativeTarget "BitcoinCuzdani" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A18FAE1ABF51C200BED648 /* Debug */,
@@ -2043,7 +2043,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A18FB01ABF51C200BED648 /* Build configuration list for PBXNativeTarget "ArcBitTests" */ = {
+		C0A18FB01ABF51C200BED648 /* Build configuration list for PBXNativeTarget "BitcoinCuzdaniTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A18FB11ABF51C200BED648 /* Debug */,
