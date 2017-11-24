@@ -519,6 +519,7 @@ import StoreKit
         }
     }
     
+    // MARK: REVIEW PAYMENTS
     fileprivate func checkTofetchFeeThenFinalPromptReviewTx() {
         if TLPreferences.enabledInAppSettingsKitDynamicFee() && !AppDelegate.instance().txFeeAPI.haveUpdatedCachedDynamicFees() {
             AppDelegate.instance().txFeeAPI.getDynamicTxFee({
