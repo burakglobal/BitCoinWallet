@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		371609F6191B495389E4EF29 /* libPods-ArcBit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8CDAAD6F71CF30CCD5BBD6 /* libPods-ArcBit.a */; };
+		4DAF288C1FC7AE8900A84DF2 /* ArcBit.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = C04A50E91B1792A8001FCE4E /* ArcBit.entitlements */; };
 		C004134A1ACEFAF200505F31 /* TLOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00413491ACEFAF200505F31 /* TLOperationsManager.swift */; };
 		C004134B1ACEFCB700505F31 /* TLOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00413491ACEFAF200505F31 /* TLOperationsManager.swift */; };
 		C01681A21DB0B1D9004D5FD7 /* TLBrainWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01681A11DB0B1D9004D5FD7 /* TLBrainWalletViewController.swift */; };
@@ -1367,6 +1368,7 @@
 				C0A190A11ABF53A100BED648 /* book.png in Resources */,
 				C0EE6D6B1B1B7E6000982692 /* 1200X1200logo.png in Resources */,
 				C0A190A81ABF53A100BED648 /* download@2x.png in Resources */,
+				4DAF288C1FC7AE8900A84DF2 /* ArcBit.entitlements in Resources */,
 				C0A190AE1ABF53A100BED648 /* newspaper-alt@2x.png in Resources */,
 				C0EE6D6A1B1B7E6000982692 /* 360X80logo.png in Resources */,
 				C0A190DE1ABF53A100BED648 /* LTHPasscodeViewController.strings in Resources */,
@@ -1938,19 +1940,19 @@
 			baseConfigurationReference = C4D7E88E9BE3FC3994E59767 /* Pods-ArcBit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ArcBit/ArcBit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BitcoinCuzdani/ArcBit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9V5WREKJ4Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ArcBit/Info.plist;
+				INFOPLIST_FILE = BitcoinCuzdani/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
 				PRODUCT_NAME = BitcoinCuzdani;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitcoinCuzdani/ArcBit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1960,19 +1962,19 @@
 			baseConfigurationReference = AA36D9E0C4AFE7E2A43F3C79 /* Pods-ArcBit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ArcBit/ArcBit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BitcoinCuzdani/ArcBit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9V5WREKJ4Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ArcBit/Info.plist;
+				INFOPLIST_FILE = BitcoinCuzdani/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcoin.cuzdan;
 				PRODUCT_NAME = BitcoinCuzdani;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ArcBit/ArcBit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitcoinCuzdani/ArcBit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
