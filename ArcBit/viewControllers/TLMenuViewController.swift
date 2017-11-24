@@ -84,6 +84,7 @@ import UIKit
         let menuItem = menuItems![(indexPath as NSIndexPath).row] as! String
         
         cell!.textLabel!.text = menuItem
+        
         cell!.backgroundColor = UIColor.clear
         
         var imageName = ""
@@ -160,7 +161,7 @@ import UIKit
 
         cell!.textLabel!.text = name
         cell!.textLabel!.textColor = TLColors.mainAppOppositeColor()
-        
+        cell?.textLabel?.font  = UIFont(name: "Avenir", size: 21)
         cell!.imageView!.image = UIImage(named: imageName)!.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
         cell!.imageView!.tintColor = TLColors.mainAppOppositeColor()
         
